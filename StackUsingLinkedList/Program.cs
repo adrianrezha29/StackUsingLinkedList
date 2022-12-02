@@ -17,7 +17,25 @@ namespace StackUsingLinkedList
         }
     }
     class Stacks
-        static void Main(string[] args)
+    {
+        Node top;
+
+        public Stacks()
+        {
+            top = null;
+        }
+
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
+        public void push(int element)
+
+    }
+    static void Main(string[] args)
         {
         }
     }
