@@ -83,6 +83,14 @@ namespace StackUsingLinkedList
                         int num = Convert.ToInt32(Console.ReadLine());
                         s.push(num);
                         break;
+                    case '2':
+                        if (s.empty())
+                        {
+                            Console.WriteLine("\nStack empty");
+                            break;
+                        }
+                        s.pop();
+                        break;
                 }
             }
         }
